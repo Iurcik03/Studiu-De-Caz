@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Imagini</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 150px); 
+      gap: 0;
+      max-width: 500px; 
+      border: 2px solid #333;
+    }
+    .gallery div {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      
+
+    }
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .gallery .center {
+      grid-column: 2 / span 3;
+      grid-row: 2 / span 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 1"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 2"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 3"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 4"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 5"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 6"></div>
+    <div class="center"><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 7"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.rUdGgyauATPwITscksT70AHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 8"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.s7s3INWN6gMDRHpP-0IA-gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 9"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.b3Jo74itMBGIsUi6KfRn0gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 10"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.s7s3INWN6gMDRHpP-0IA-gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 11"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.s7s3INWN6gMDRHpP-0IA-gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 12"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.s7s3INWN6gMDRHpP-0IA-gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 13"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.s7s3INWN6gMDRHpP-0IA-gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 14"></div>
+    <div><img src="https://tse1.mm.bing.net/th?id=OIP.b3Jo74itMBGIsUi6KfRn0gHaEo&pid=Api&rs=1&c=1&qlt=95&w=159&h=99" alt="Image 15"></div>
+  </div>
+</body>
+</html>
